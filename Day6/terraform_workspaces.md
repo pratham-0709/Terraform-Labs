@@ -102,7 +102,7 @@ Store state files in a remote backend (e.g., S3 with DynamoDB) for better manage
 terraform {
   backend "s3" {
     bucket         = "my-terraform-states"
-    key            = "state/${terraform.workspace}/terraform.tfstate"
+    key            = "statefiles/workspace"
     region         = "us-east-1"
     dynamodb_table = "terraform-locks"
   }
