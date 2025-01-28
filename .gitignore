@@ -1,0 +1,45 @@
+# Ignore override files as they are usually used to override resources locally and so
+
+# are not checked in
+
+override.tf
+
+override.tf.json
+
+*_override.tf
+
+*_override.tf.json
+
+# Ignore .tfvars files (can contain sensitive information)
+
+*.tfvars
+
+*.tfvars.json
+
+# Ignore any local cache
+
+.cache/
+
+
+# Ignore any local logs
+
+*.log
+
+
+# Ignore any local backups
+
+*.bak
+
+
+# Ignore any local temporary files
+
+*.tmp
+
+
+# Ignore any local test files
+
+*.test
+
+# Ignore crash log files
+
+crash.log
